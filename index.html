@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora-IMC</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="imagem/png" href="icone.png" />
+</head>
+<body>
+  <main>
+    <h2>Calculadora de IMC</h2>
+    <div class="divAltura">
+      <label for="altura">Altura</label>
+      <input type="number" id="altura" placeholder="Altura" />
+    </div>
+    <div class="divPeso">
+      <label for="peso">Peso</label>
+      <input type="number" id="peso" placeholder="Peso"/>
+    </div>
+
+    <div class="divCalc">
+      <button onclick="calcIMC()">Resultado</button>
+    </div>
+    
+    <span id="resultado"></span>
+    <footer>Desenvolvido por JUNIO PEREIRA - 2023</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
